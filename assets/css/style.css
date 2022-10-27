@@ -19,17 +19,24 @@ nav li {
     display: inline;
     padding: 5px;
     text-align: center;
+    border-color:#777;
 
 }
 
 a:link {
     text-decoration: none;
-    color: #dd3232;
+    color: #777;
+  }
+
+  a:visited {
+    text-decoration: none;
+    color: #777;
   }
 
 nav {
     border-top: solid 1px #777;
     border-bottom: solid 1px #777;
+    color: #777;
 }
 
 .newspaper-container{
@@ -44,9 +51,9 @@ nav {
 
 .more-articles section{
     display: inline-block;
-    width: 320px;
     margin: 0px 40px 0px 0px;
-
+    width: 300px;
+    align-items: center;
 }
 
 h5 {
@@ -55,5 +62,11 @@ h5 {
 
 img{
     width: 100%;
+}
+
+hr{
+    height: 1px;
+    background-color: #777;
+    border: none;
 }
 
