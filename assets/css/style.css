@@ -4,15 +4,18 @@ body{
     background-color: #eee;
     font-family: 'Source Sans Pro';
     border: #eee;
+    color:#777;
 }
 
 h1{
     font-family: 'Abril Fatface';
     text-align: center;
+    color:black;
 }
 
 h2{
     font-family: 'Roboto Slab';
+    color:black;
 }
 
 nav li {
@@ -28,7 +31,7 @@ a:link {
     color: #777;
   }
 
-  a:visited {
+a:visited {
     text-decoration: none;
     color: #777;
   }
@@ -60,6 +63,11 @@ h5 {
     color: #dd3232;
 }
 
+h4 {
+    color:black;
+    font-family: 'Roboto Slab';
+}
+
 img{
     width: 100%;
 }
@@ -68,5 +76,9 @@ hr{
     height: 1px;
     background-color: #777;
     border: none;
+}
+
+main p {
+    con
 }
 
